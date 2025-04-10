@@ -1,0 +1,42 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Ignore notebook outputs if needed (optional)
+*.nbconvert.ipynb
+
+# Logs and runtime files
+*.log
+*.out
+*.bak
+*.swp
+*.tmp
+
+# Ignore large data files (optional)
+data/
+*.csv
+*.json
+*.zip
+*.tar.gz
+
+# Ignore environment config files (optional)
+*.egg-info/
+pip-log.txt
